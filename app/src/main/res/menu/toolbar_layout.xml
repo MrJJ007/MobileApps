@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/refresh_icon"
+        app:showAsAction="ifRoom"
+        android:title="@string/refresh">
+
+    </item>
+    <item
+        android:id="@+id/preferences"
+        android:title="@string/preferences">
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings">
+    </item>
+    <item
+        android:id="@+id/loginOrSignup"
+        android:title="@string/loginOrSignup">
+    </item>
+</menu>
